@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://varshith.github.io/sitemap.xml 
