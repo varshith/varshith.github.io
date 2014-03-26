@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://varshith.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Vinu Varshith's awesome blog
+subtitle: Drupal and other cool stuff.
+author: Varshith
 simple_search: https://www.google.com/search
 description:
 
@@ -90,11 +90,18 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: vinuvarshith
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id:
 
 # Facebook Like
-facebook_like: false
+facebook_like: true
+
+## Navigation
+navigation:
+- text: Home
+  url: /
+- text: About me
+  url: /about

@@ -1,2 +1,74 @@
-// This File is imported last, and will override other styles in the cascade
-// Add styles here to make changes without digging in too much
+// Add your custom styling here.
+
+.color-bar {
+  height: 10px;
+  background: -webkit-linear-gradient(left, $green, 
+    $green 15%,
+    $pink 15%, $pink 25%,
+    $yellow 25%, $yellow 35%,
+    $red 35%, $red 50%,
+    $blue 50%, $blue 65%,
+    $dgreen 65%, $dgreen 75%,
+    $violet 75%, $violet 85%,
+    $sandal 85%);
+  background: -moz-linear-gradient(left, $green, 
+    $green 15%,
+    $pink 15%, $pink 25%,
+    $yellow 25%, $yellow 35%,
+    $red 35%, $red 50%,
+    $blue 50%, $blue 65%,
+    $dgreen 65%, $dgreen 75%,
+    $violet 75%, $violet 85%,
+    $sandal 85%);
+  background: -ms-linear-gradient(left, $green, 
+    $green 15%,
+    $pink 15%, $pink 25%,
+    $yellow 25%, $yellow 35%,
+    $red 35%, $red 50%,
+    $blue 50%, $blue 65%,
+    $dgreen 65%, $dgreen 75%,
+    $violet 75%, $violet 85%,
+    $sandal 85%);
+  background: linear-gradient(left, $green, 
+    $green 15%,
+    $pink 15%, $pink 25%,
+    $yellow 25%, $yellow 35%,
+    $red 35%, $red 50%,
+    $blue 50%, $blue 65%,
+    $dgreen 65%, $dgreen 75%,
+    $violet 75%, $violet 85%,
+    $sandal 85%);
+}
+
+.navbar {
+  .navbar-inner {
+    background: #2c3e50;
+	.nav {
+	  li a {
+	    color: $nav-text;
+		&:hover { 
+		color: $nav-text;
+		background: $nav-hover
+		}
+	  }
+	}
+  }
+}
+
+// Set body and container bg
+body {
+  background: url("../images/skulls.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  #main {
+    background: none repeat scroll 0 0 #FFFFFF;
+    padding: 0 30px;
+  }
+}
+
+.logo {
+  background: url("../images/v-small.png") no-repeat;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 6px;
+  right: 50%;
+}
