@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Vinu Varshith's awesome blog]]></title>
   <link href="http://varshith.github.io/atom.xml" rel="self"/>
   <link href="http://varshith.github.io/"/>
-  <updated>2014-03-23T08:51:59+05:30</updated>
+  <updated>2014-03-26T12:03:13+05:30</updated>
   <id>http://varshith.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Varshith]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://varshith.github.io/blog/2014/03/26/hello-world/"/>
+    <updated>2014-03-26T11:33:39+05:30</updated>
+    <id>http://varshith.github.io/blog/2014/03/26/hello-world</id>
+    <content type="html"><![CDATA[<p>Hello World.</p>
+
+<p>VinuVarshith here. I love <em>open source</em>. I am currently working with <strong>Drupal</strong> and loving every bit of it. I also worked with <em>Hadoop, HBase, Nutch, Solr, Redis</em> etc.</p>
+
+<p>Along the way I&rsquo;ve had blocks to which finding the way around was not straightforward. Many times I searched for a solution and couldn&rsquo;t find it anywhere and I had to find it out the hard way.</p>
+
+<p>I always wanted to start a blog and let people know how to solve such problems, tips and tricks to make life better etc.</p>
+
+<p>I hope this would be a small contribution to the world of open source.</p>
+
+<p>You can learn <a href="http://varshith.github.io/about">more about me here</a>.</p>
+]]></content>
+  </entry>
   
 </feed>
